@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Sample MVVM Project</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="text_icon_b" translatable="false">b</string>
+    <string name="text_sign_in" translatable="false">Submit</string>
+    <string name="text_sign_up" translatable="false">Sign Up</string>
+    <string name="text_sign_up_sub_user" translatable="false">" (Sub User) !!"</string>
+    <string name="text_forgot_password" translatable="false">Forgot Password</string>
+    <string name="text_remember_me" translatable="false" >Remember Me!</string>
+    <string name="text_username" translatable="false">Username</string>
+    <string name="text_name" translatable="false">Name</string>
+    <string name="text_blue" translatable="false">BLUE</string>
+    <string name="text_questionnaire" translatable="false">Questionnaire</string>
+    <string name="text_email" translatable="false">Email</string>
+
+    <string name="title_login" translatable="false">Login</string>
+    <string name="title_forgot_password" translatable="false">Forgot Password</string>
+    <string name="forgot_password" translatable="false">Forgot Password?</string>
+    <string name="text_submit" translatable="false">Submit</string>
+    <string name="text_signup" translatable="false">Sign Up</string>
+    <string name="text_password" translatable="false">Password (8 to 15 characters)</string>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/postLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/image"
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/default_image"
+                            app:imageUrl="@{movie.image}"></ImageView>
+                        <TextView
+                            android:fontFamily="@font/baloo"
+                            android:id="@+id/postTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="@{movie.name}"
+                            android:textColor="@android:color/black"
+                            android:textSize="18dp"></TextView>
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtCount"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_bg_2"
+                android:gravity="center"
+                android:text="@{movie.rank}"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+        </RelativeLayout>
+
+        >
+    </RelativeLayout>
+
+
+    <data>
+
+        <import type="com.androidTest.movieDemo.util.StringUtil"></import>
+
+        <variable
+            name="movie"
+            type="com.androidTest.movieDemo.model.Results.Movie" />
+    </data>
+
+</layout>

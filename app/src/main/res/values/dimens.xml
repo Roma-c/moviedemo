@@ -1,0 +1,111 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+        <dimen name="dp_10">10dp</dimen>
+        <dimen name="dp_1">1dp</dimen>
+        <dimen name="dp_2">2dp</dimen>
+        <dimen name="dp_5">5dp</dimen>
+        <dimen name="dp_20">20dp</dimen>
+        <dimen name="dp_15">15dp</dimen>
+        <dimen name="dp_40">40dp</dimen>
+        <dimen name="dp_60">60dp</dimen>
+        <dimen name="dp_200">200dp</dimen>
+        <dimen name="dp_150">150dp</dimen>
+        <dimen name="dp_400">400dp</dimen>
+
+        <dimen name="sp_24">24sp</dimen>
+        <dimen name="sp_20">20sp</dimen>
+        <dimen name="sp_18">18sp</dimen>
+        <dimen name="sp_16">16sp</dimen>
+        <dimen name="sp_14">14sp</dimen>
+
+        <dimen name="dp_30">30dp</dimen>
+        <dimen name="list_item_height">48dp</dimen>
+        <dimen name="horizontal_margin">16dp</dimen>
+        <dimen name="list_item_left_margin">72dp</dimen>
+        <dimen name="dp_100">100dp</dimen>
+
+        <!--    New Code-->
+        <dimen name="zero_size">0dp</dimen>
+        <dimen name="line_size">1dp</dimen>
+        <dimen name="line_2dp">2dp</dimen>
+
+        <dimen name="design_navigation_padding_top_default" tools:override="true">0dp</dimen>
+        <dimen name="design_navigation_separator_vertical_padding" tools:override="true">0dp</dimen>
+        <dimen name="design_navigation_padding_bottom" tools:override="true">0dp</dimen>
+
+        <dimen name="padding_x_small">4dp</dimen>
+        <dimen name="padding_small">8dp</dimen>
+        <dimen name="padding_default">12dp</dimen>
+        <dimen name="padding_medium">16dp</dimen>
+        <dimen name="padding_large">20dp</dimen>
+        <dimen name="padding_x_large">24dp</dimen>
+        <dimen name="padding_xx_large">28dp</dimen>
+        <dimen name="padding_xxx_large">30dp</dimen>
+        <dimen name="padding_4x_large">40dp</dimen>
+        <dimen name="padding_5x_large">56dp</dimen>
+        <dimen name="padding_64dp">64dp</dimen>
+        <dimen name="padding_6dp">6dp</dimen>
+        <dimen name="padding_5dp">5dp</dimen>
+        <dimen name="padding_13dp">13dp</dimen>
+        <dimen name="padding_76">76dp</dimen>
+        <dimen name="padding_94">94dp</dimen>
+        <dimen name="padding_84">84dp</dimen>
+        <dimen name="padding_88">88dp</dimen>
+        <dimen name="padding_100dp">100dp</dimen>
+        <dimen name="padding_46">46dp</dimen>
+        <dimen name="padding_32dp">32dp</dimen>
+        <dimen name="padding_14dp">14dp</dimen>
+
+        <dimen name="size_72dp">72dp</dimen>
+        <dimen name="size_60dp">60dp</dimen>
+        <dimen name="dialog_height">244dp</dimen>
+
+        <dimen name="text_size_10sp">10sp</dimen>
+        <dimen name="text_size_small">12sp</dimen>
+        <dimen name="text_size_medium">14sp</dimen>
+        <dimen name="text_size_large">16sp</dimen>
+        <dimen name="text_size_xlarge">18sp</dimen>
+        <dimen name="text_size_20">20sp</dimen>
+        <dimen name="text_size_18">18sp</dimen>
+        <dimen name="text_size_17">17sp</dimen>
+        <dimen name="text_size_16">16sp</dimen>
+        <dimen name="text_size_14">14sp</dimen>
+        <dimen name="text_size_12">12sp</dimen>
+        <dimen name="text_size_13">13sp</dimen>
+        <dimen name="text_size_22">22sp</dimen>
+        <dimen name="text_size_15">15sp</dimen>
+        <dimen name="text_size_24">24sp</dimen>
+        <dimen name="text_size_60">60sp</dimen>
+        <dimen name="text_size_32sp">32sp</dimen>
+
+        <dimen name="line_spacing_8sp">8sp</dimen>
+        <dimen name="line_spacing_6sp">6sp</dimen>
+
+        <dimen name="np_text_size">19.1sp</dimen>
+        <dimen name="np_selected_text_size">38.2sp</dimen>
+        <dimen name="text_size_30sp">30sp</dimen>
+
+        <dimen name="text_size_50sp">50sp</dimen>
+    <dimen name="knob_size">220dp</dimen>
+    <dimen name="progress_size">200dp</dimen>
+
+    <dimen name="dimer_knob_size">180dp</dimen>
+    <dimen name="dimmer_progress_size">160dp</dimen>
+
+    <dimen name="fav_knob_size">150dp</dimen>
+    <dimen name="fav_progress_size">130dp</dimen>
+
+    <dimen name="fav_dimer_knob_size">140dp</dimen>
+    <dimen name="fav_dimmer_progress_size">120dp</dimen>
+
+    <item name="dialog_image_top_padding" format="float" type="dimen">0.13</item>>
+    <item name="dialog_image_left_padding" format="float" type="dimen">0.13</item>>
+    <item name="dialog_image_right_padding" format="float" type="dimen">0.87</item>
+
+    <dimen name="dialog_with_image_padding">40dp</dimen>
+    <dimen name="dialog_button_height">48dp</dimen>
+    <dimen name="dialog_button_radius">13dp</dimen>
+
+</resources>
